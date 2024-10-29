@@ -15,3 +15,4 @@ Server files for Arma 3
 ### Programs needed 
 - SteamCMD (installed via ubuntu repo)
 - Arma 3 Linux dedicated server (via SteamCMD)
+- ZeroTier VPN 
