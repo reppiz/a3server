@@ -1,7 +1,7 @@
 # a3server
 Server files for Arma 3
 
-### Whats included? 
+### Included
 - Helpful scripts for server administration
 - Custom mission files
 - Current modlist
