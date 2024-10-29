@@ -1,0 +1,42 @@
+## Required 
+-> update all mods/arma3 via steamcmd using runscript argument and the "aram3-update.txt" file in the home directory
+
+-> recursive search the entire mods folder and make sure every directory/filename is lowercase by running the following command in the mods directory
+        EX: find . -depth -exec rename 'y/A-Z/a-z/' {} +
+
+-> make sure all mods in ~/mods/steamapps/workshop/content/107410 are symm linked to ~/arma3/
+        EX: ln -s /home/steam/mods/steamapps/workshop/content/107410/* /home/steam/arma3/
+
+-> cd into mad-max-operations and run the following to update the repository and pull anything new in
+        git fetch origin main
+        git pull origin main
+
+-> either copy the missino PBO from git repo to the ~/arma3/mpmissions/ or do a symm link
+
+-> edit ~/arma3/server.cfg to reflect the new mission name in the mission class section. ommiting the ".pbo"
+
+-> make sure ~/arma3/viking_mods.txt is updated with the current mod list
+
+-> make any nescessary changes to viking_start.sh file if you want to invoke a different profile template or server config file
+
+-> run the shell script as follows: ./viking_start.sh
+        # Can run this script with screen tool or just with current SSH session. 
+
+
+# list of useful screen commands
+screen -S session_name
+
+screen -list *lists screen sessions*
+
+screen -r xxxx *reattach to screen session ID #*
+
+Ctrl+a c Create a new window (with shell).
+Ctrl+a " List all windows.
+Ctrl+a 0 Switch to window 0 (by number).
+Ctrl+a A Rename the current window.
+Ctrl+a S Split current region horizontally into two regions.
+Ctrl+a | Split current region vertically into two regions.
+Ctrl+a tab Switch the input focus to the next region.
+Ctrl+a Ctrl+a Toggle between the current and previous windows
+Ctrl+a Q Close all regions but the current one.
+Ctrl+a X Close the current region.

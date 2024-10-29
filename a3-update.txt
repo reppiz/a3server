@@ -1,0 +1,105 @@
+// update arma3 and all the mods in ~/mods/ folder
+//
+@ShutdownOnFailedCommand 0 //set to 0 if updating multiple servers at once
+force_install_dir /home/steam/arma3/
+login chayhurst2304
+// update arma3 with beta branch to get creator DLC
+app_update 233780 -beta creatordlc " validate
+logout
+force_install_dir /home/steam/mods/ 
+login chayhurst2304
+workshop_download_item 107410 450814997 validate
+workshop_download_item 107410 583496184 validate
+workshop_download_item 107410 497660133 validate
+workshop_download_item 107410 463939057 validate
+workshop_download_item 107410 861133494 validate
+workshop_download_item 107410 583544987 validate
+workshop_download_item 107410 497661914 validate
+workshop_download_item 107410 2183975396 validate
+workshop_download_item 107410 2291129343 validate
+workshop_download_item 107410 894678801 validate
+workshop_download_item 107410 1779063631 validate
+workshop_download_item 107410 2424797017 validate
+workshop_download_item 107410 2010222986 validate
+workshop_download_item 107410 2966168738 validate
+workshop_download_item 107410 2914901109 validate
+workshop_download_item 107410 3283642267 validate
+workshop_download_item 107410 1858075458 validate
+workshop_download_item 107410 333310405 validate
+workshop_download_item 107410 1990653162 validate
+workshop_download_item 107410 753946944 validate
+workshop_download_item 107410 623475643 validate
+workshop_download_item 107410 713709341 validate
+workshop_download_item 107410 346726922 validate
+workshop_download_item 107410 1858070328 validate
+workshop_download_item 107410 1862208264 validate
+workshop_download_item 107410 837729515 validate
+workshop_download_item 107410 2822758266 validate
+workshop_download_item 107410 498101407 validate
+workshop_download_item 107410 767380317 validate
+workshop_download_item 107410 730310357 validate
+workshop_download_item 107410 1400449010 validate
+workshop_download_item 107410 823636749 validate
+workshop_download_item 107410 2133632112 validate
+workshop_download_item 107410 2022986929 validate
+workshop_download_item 107410 2957974874 validate
+workshop_download_item 107410 2947745583 validate
+workshop_download_item 107410 1726184748 validate
+workshop_download_item 107410 1251859358 validate
+workshop_download_item 107410 642912021 validate
+workshop_download_item 107410 1726494027 validate
+workshop_download_item 107410 2800081814 validate
+workshop_download_item 107410 2643518676 validate
+workshop_download_item 107410 1368857262 validate
+workshop_download_item 107410 2886141254 validate
+workshop_download_item 107410 2993442344 validate
+workshop_download_item 107410 2561708057 validate
+workshop_download_item 107410 2981582086 validate
+workshop_download_item 107410 2198339170 validate
+workshop_download_item 107410 1376867375 validate
+workshop_download_item 107410 3029520419 validate
+workshop_download_item 107410 2447965207 validate
+workshop_download_item 107410 2515887728 validate
+workshop_download_item 107410 3142300742 validate
+workshop_download_item 107410 3165450999 validate
+workshop_download_item 107410 3283645995 validate
+workshop_download_item 107410 1624803912 validate
+workshop_download_item 107410 3283635033 validate
+workshop_download_item 107410 374775446 validate
+workshop_download_item 107410 374780664 validate
+workshop_download_item 107410 3256534418 validate
+workshop_download_item 107410 2946868556 validate
+workshop_download_item 107410 918639806 validate
+workshop_download_item 107410 2684046473 validate
+workshop_download_item 107410 2010225817 validate
+workshop_download_item 107410 2010224487 validate
+workshop_download_item 107410 2994796909 validate
+workshop_download_item 107410 3013515917 validate
+workshop_download_item 107410 2829330653 validate
+workshop_download_item 107410 2266710560 validate
+workshop_download_item 107410 1446500688 validate
+workshop_download_item 107410 1537973181 validate
+workshop_download_item 107410 2262255106 validate
+workshop_download_item 107410 2616555444 validate
+workshop_download_item 107410 2789152015 validate
+workshop_download_item 107410 3083451905 validate
+workshop_download_item 107410 1893300731 validate
+workshop_download_item 107410 632435682 validate
+workshop_download_item 107410 766491311 validate
+workshop_download_item 107410 541888371 validate
+workshop_download_item 107410 3040140495 validate
+workshop_download_item 107410 2784421262 validate
+workshop_download_item 107410 2735457310 validate
+workshop_download_item 107410 3078351739 validate
+workshop_download_item 107410 2814015609 validate
+workshop_download_item 107410 2796322796 validate
+workshop_download_item 107410 3132949782 validate
+workshop_download_item 107410 2624532448 validate
+workshop_download_item 107410 1914285758 validate
+workshop_download_item 107410 2780372915 validate
+workshop_download_item 107410 2797232351 validate
+workshop_download_item 107410 2735613231 validate
+workshop_download_item 107410 3032643455 validate
+workshop_download_item 107410 2572487482 validate
+workshop_download_item 107410 878502647 validate
+quit
